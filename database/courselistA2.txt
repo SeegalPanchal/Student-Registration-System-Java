@@ -1,0 +1,32 @@
+CIS*2430,0.5,Object Oriented Programming,F,CIS*2500
+CIS*2750,0.75,Software Systems Development and Integration,W,CIS*2520:CIS*2430
+CIS*1500,0.5,Intro to Programming,B,
+CIS*2520,0.5,Data Structures,F,CIS*2500
+CIS*1910,0.5,Discrete Structures in Computing 1,W,
+CIS*2910,0.5,Discrete Structures in Computing 1,F,CIS*1910
+CIS*2500,0.5,Intermediate Programming,W,CIS*1500
+CIS*3530,0.5,Data Base Systems and Concepts,F,CIS*2520
+MATH*1080,0.5,Elements of Calculus,B,
+MATH*1210,0.5,Calculus II,W,MATH*1080
+CIS*2170,0.75,User Interface Design,W,CIS*1500
+STAT*2040,0.5,Statistics I,B,MATH*1080
+CIS*3190,0.5,Legacy Systems,W,CIS*2500
+CIS*3000,0.5,Social Implications of Computing,F,CIS*2430
+ASCI*1110,0.5,Uses of Knowledge,F,
+BIOL*1020,0.5,Introduction to Biology,F,
+CHEM*1040,0.5,General Chemistry I,B,
+CHEM*1050,0.5,General Chemistry II,B,CHEM*1040
+ECON*1050,0.5,Introductory Microeconomics,B,
+PHYS*1010,0.5,Introductory Electricity and Magnetism,W,MATH*1080
+MATH*2080,0.5,Elements of Calculus II,W,MATH*1080
+PHYS*1600,0.5,Contemporary Astrononmy,F,
+ENGL*1200,0.5,Reading in the Contemporary World,B,
+ENGL*2230,0.5,Popular Genres,B,ENGL*1200
+HIST*1250,0.5,Science and Technology in a Global Context,B,
+HIST*2020,0.5,Film as History,W,
+HIST*2120,0.5,Animals and Society,W,HIST*2020:ENGL*1200
+CIS*2460,0.5,Simulation and Modelling,F,CIS*2500
+STAT*2040,0.5,Research Statistics,B,STAT*2040
+GEOG*1220,0.5,Human Impact on the Environment,B,
+GEOG*2030,0.5,Environment and Development,F,GEOG*1220
+GEOG*2210,0.5,Environment and Resources,W,GEOG*1220

@@ -1,0 +1,28 @@
+Using  MyConnection.java
+
+MyConnection.java is a database wrapper that is specifically designed for Assignment 2.  Please don't try to use it for other, more general database solutions.  It is not designed for anything complex.
+
+
+Steps to using.
+
+1. Edit DBDetails.java to include the information relevant to you.  The comments tell you what to edit.
+
+2. Read ConnectionDemo.java.  It shows you how to use the wrapper.  You won't need ConnectionDemo.java in your own program, it is just a demonstration.
+
+3. Write a standalone, command line program that does the following:
+    a) make a new connection (line 18 of ConnectionDemo)
+    b) use the PrepStudentScript class to build your database tables. (line 21 of ConnectionDemo.java)
+    c) populate the courses table by calling repopulateCourses() on your connection.  Ensure that the necessary text file is in the same directory (read the code for that method for details).  You can add any courses you wish to that file ahead of population.
+
+4. At this point your database is ready  to use and you can simply make a connection and use the methods.  My advice is to make the connection a member of your controller class,  but you can put it anywhere you want.   You only need a single connection for the entire program, but you can open/close new connections if you would rather.
+
+
+
+Saving the Student.
+
+DBStudent is simply a convenience class for sending student information to the database.  When you want to save  a student, create an instance of DBStudent and copy the information to the new object.   It has four member variables, name, id, degree, and a list of courses.   All are strings.   The strings in the list of courses are sent back to you exactly how you send them, so you can put any info you want in that string (coursecode, grade, semester, etc) in any format you wish.
+
+There is an example of saving a student on lines 46-52 of the ConnectionDemo class.
+
+
+
